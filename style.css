@@ -37,7 +37,7 @@ ul {
   border: 0px;
 }
 
-.button-1 {
+#button-1 {
   background-color: #3882f6;
   color: white;
   border-radius: 4px;
@@ -46,13 +46,15 @@ ul {
   border: none;
 }
 
-.button-2 {
+#button-2 {
   background-color: #3882f6;
   color: white;
   border-radius: 4px;
   width: 125px;
   height: 35px;
-  border: 2px white;
+  border-width: 2px;
+  border-color: white;
+  border-style: solid;
 }
 
 .hero-main {
@@ -127,9 +129,34 @@ ul {
   background-color: #3882f6;
   padding: 50px;
   width: 1200px;
-  height: 50px;
-  text-align: center;
+  height: 100px;
   margin: 50px;
+  border: 0px;
   display: flex;
   align-items: center;
+  flex-direction: column;
+}
+
+.call-heading {
+  border: 0px;
+  margin: 0px;
+  padding: 0px;
+  font-size: 24px;
+  color: #f9faf8;
+  font-weight: 700;
+}
+
+.class-text {
+  color: #f9faf8;
+}
+
+.footer {
+  background-color: #1f2937;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-text {
+  color: #e5e7eb;
 }
